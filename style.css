@@ -443,9 +443,16 @@ h3{
 .project-container{
     display: flex;
     width: 100%;
+    /* width: fit-content; */
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
+}
+#projects .project-container .project-box a {
+    color: #5e3bee; 
+    padding-top: 15px; 
+    position: relative;
+     left: 3rem; 
 }
 .project-box{
     position: relative;
@@ -704,6 +711,7 @@ footer{
     .project-box{
         width: 80%;
     }
+
 }
 
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
@@ -736,15 +744,15 @@ footer{
         gap: 20px;
        }
     .about-info{
-        width: 350px;
+        width: 300px;
         left: 0;
     }
     #work{
-        width: 350px;
+        width: 300px;
         left: 0;   
     }
     #work .taxila .img #taxila{
-        left: 100px;
+        left: 50px;
       
     }
     #about #work h3{
@@ -759,28 +767,43 @@ footer{
     .skill_cards{
         flex-wrap: wrap;
         left: -35px;
+        gap: -0rem;
+       
     }
     .skill_cards .card{
-        width: 188px;
+        width: 160px;
+        scale: 0.9;
+        height: 187px;
     }
 
     /* Project */
     .project-box{
         width: 100%;
     }
+
     .featured-image{
         scale: 1.5;
         margin-top: 8em;
     }
+    #projects .project-container .project-box a {
+      left: 1rem;
+    }
+   #construction h3{
+    position: relative;
+    left: 5rem;
+   }
+   #construction #const{
+    display: none;
+   }
    
     /* find me */
     #contact{
         margin-top: -81px;
     }
     .contact-info{
-        scale: 0.8;
+        scale: 0.65;
         position: relative;
-        left: -78px;
+        left: -100px;
         display: flex;
         align-items: start;
     }
@@ -792,10 +815,11 @@ footer{
         left: 0px;
     }
     .form-control{
-        margin-top: -81px;
-        scale: 0.8;
+        margin-top: -136px;
+        margin-bottom: -110px;
+        scale: 0.65;
         position: relative;
-        left: -76px;
+        left: -100px;
 
     }
     .form-inputs{
