@@ -790,7 +790,7 @@ footer{
     }
    #construction h3{
     position: relative;
-    left: 3rem;
+    left: 0rem;
    }
    #construction #const{
     display: none;
